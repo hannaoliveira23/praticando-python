@@ -1,2 +1,11 @@
 x = float(input('Digite um valor (em metros): '))
 print('{} metro(s) equivale(m) a {} centímetro(s) e a {} milímetro(s).'.format(x, x*100, x*1000))
+
+x = float(input('Digite um valor (em metros): '))
+print('{} metro(s) equivale(m) a:'.format(x))
+print('{:.4f} quilômetros'.format(x/1000))
+print('{:.4f} hectômetros'.format(x/100))
+print('{:.4f} decâmetros'.format(x/10))
+print('{:.2f} decímetros'.format(x*10))
+print('{:.2f} centímetros'.format(x*100))
+print('{:.2f} milímetros'.format(x*1000))
